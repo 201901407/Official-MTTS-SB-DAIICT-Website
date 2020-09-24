@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="home_style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+        <title>IEEE MTT-S SB DAIICT</title> 
+        <link rel="icon" href="/MTTS website images/Logo MTT-S.png">    
+    </head>
+    <body>
+        <h1 id = "header_logo"><img src="/MTTS website images/Logo MTT-S.png" alt="IEEE MTT-S SB DA-IICT" id = "header_logo_left">
+            <a href="https://ieee-sb-daiict.github.io/ieee-2020/index.html" title="IEEE Student Branch DAIICT" target="_blank"><img src="/MTTS website images/IEEE-SB-DAIICT.png" alt="IEEE SB-DAIICT" id = "header_logo_right"></a></h1>
+        <nav class ="header_menu"><ul class = "header_menu">
+            <li class="active"><a href="Home.html" title="Home">HOME</a></li>
+            <li class="header_links"><a href="events.html" title="Event Timeline">EVENT TIMELINE</a></li>
+            <li class="header_links"><a href="gallery_web.html" title="Gallery">GALLERY</a></li>
+            <li class="header_links"><a href="https://ieee-sb-daiict.github.io/ieee-2020/team.html" title="Execomm committee">EXECOMM</a></li>
+            <li class="header_links"><a href="members.html" title="Members">MEMBERS</a></li>
+            <li class="header_links"><a href="history.html" title="History">HISTORY</a></li>
+            <li class="header_links"><a href="contact.html" title="Contact Us">CONTACT US</a></li>
+        </ul></nav>    
+        <div class="main_description">
+            <img src="/MTTS website images/Logo MTT-S.png" alt="IEEE MTT-S SB DA-IICT" id="desc_logo"></div>
+            <p id = "description">IEEE MTT-S Student Branch DAIICT</p><p id="description_text">
+                IEEE MTT-S DAIICT Student Branch chapter is volunteer based chapter and aims to provide a platform for students to learn and interact with like-minded people. 
+                It provides opportunity for development of professional and technical skills about microwave techniques and related technologies. 
+                We carry out many events round the year that involve active and interactive learning and hands on experience that promotes trending and upcoming technologies in this domain. 
+                Get in touch with us at <a href="mailto:ieeemtts@daiict.ac.in" style="text-decoration: none; font-weight: normal;">ieeemtts@daiict.ac.in</a>.
+            </p>    
+        <div class="event_handler"><h1 class="event_handler">Upcoming Events:</h1></div>
+        <div class="events_upcoming">
+            <div class="single_event_info">
+                <h2 class = "event_description">Short term course on Deep Space Communications<br><br>Date: TBA</b></h2>
+            </div>
+            <a class="previous_event" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next_event" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("single_event_info");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              slides[slideIndex-1].style.display = "block";  
+            }
+            </script>
+            <div class="event_handler"><h1 class="event_handler">Past Events:</h1></div>
+            <div class="events_back">
+                <div class="past_events">
+                    <img src="/MTTS website images/PosterML.jpg" alt="Hands-on Workshop on ML in RF and Microwave" class="past_event_poster_ver"><h2 class="event_description_past">Hands-on Workshop on ML in RF and Microwave<br></h2>
+                    <h2 class="date_time">Date: 5th and 6th September 2020<br>Venue: Online<br></h2><p class="past_event_description">The Hands-on workshop was on the topic ML in RF and Microwave. The first speaker of the event was <b>Dr. Hardik Patel (Founding Director of Avadhuta Antennaz Solutions Private Limited)</b> and the second speaker was <b>Dr. Ganga Prasad Pandey (Vice Chairman of IEEE MTT/AP Joint Chapter Gujarat Section)</b>. 
+                        The session covered all important basics with pratical learning using softwares like <b>Anaconda IDE and Google Colab</b>.</p>
+                </div>
+                <div class="past_events">
+                    <img src="/MTTS website images/Posterfinalmicrowaveday1.png" alt="Microwave Day 2019" class="past_event_poster"><h2 class="event_description_past">Microwave Day<br></h2>
+                    <h2 class="date_time">Date: 12th October 2019<br>Venue: CEP102, DAIICT, Gandhinagar<br></h2><p class="past_event_description">Microwave day was celebrated by MTTS SBC in an interesting and memorable way. We had
+                        Millimetre wave technology development scientist at ISRO, <b>Shri Shailendra Singh</b>, and brief talk by
+                        <b>Dr. Shiv Mohan (Ex-ISRO)</b>. We also provided hands on experience on CST Microwave Studio
+                        Software.</p>
+                </div>
+                <div class="past_events">
+                    <img src="/MTTS website images/5G.jpg" alt="DAIICT Winter School on 5G Communications" class="past_event_poster"><h2 class="event_description_past">DAIICT Winter School on 5G Communications</h2>
+                    <h2 class="date_time">Date: 7th and 8th December 2018<br>Venue: CEP102, DAIICT, Gandhinagar<br></h2><p class="past_event_description">This workshop on 5G technology was a 2 day event to familiarize students on the latest
+                        developments in fields of communication and microwave technology. The workshop dealt with
+                        <b>Massive MIMO and NOMA in 5G, Evolution of Air Interface Towards 5G, 5G Network, 3GPP NRR, 
+                            OTA Testing</b> and many more. It concluded with Cognative RAN: Next Generation 6G
+                        Network that will be the future of communication.</p>
+                </div>
+                <div class="past_events">
+                    <img src="/MTTS website images/wavesim.jpg" alt="Microwave Nondestructive Testing of Composite Materials and Microwave Imaging of
+                    Human Body" class="past_event_poster"><h2 class="event_description_past">Microwave Nondestructive Testing of Composite Materials and Microwave Imaging of
+                        Human Body</h2>
+                    <h2 class="date_time">Date: 2019<br>Venue: DAIICT, Gandhinagar<br></h2><p class="past_event_description">This workshop focussed on microwave imaging of human body that gave insights on how
+                        microwave technology can be a great help in medical equipment and demonstrate its
+                        significance. It was carried by <b>Dr Deepak Ghodgaonkar, the SBC mentor, IEEE MTTS</b>.</p>
+                </div>
+                <a class="previous_event" onclick="forwardSlides(-1)">&#10094;</a>
+                <a class="next_event" onclick="forwardSlides(1)">&#10095;</a>
+            </div>
+            <script>
+                var index = 1;
+                displaySlides(index);
+                
+                function forwardSlides(n) {
+                  displaySlides(index += n);
+                }
+    
+                function onSlide(n) {
+                    displaySlides(index = n);
+                }
+                
+                function displaySlides(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("past_events");
+                  if (n > slides.length) {index = 1}    
+                  if (n < 1) {index = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";  
+                  }
+                  slides[index-1].style.display = "block";  
+                }
+                </script>
+                <div><h1 class="about_section">About IEEE MTT-S</h1><p id="description_text">The IEEE Microwave Theory and Techniques Society (MTT-S) promotes the advancement of microwave theory and its applications including RF, microwave technologies, mm-wave and terahertz technologies. The activities sponsored by the 
+                    MTT-S include a broad spectrum of conferences, workshops, tutorials, technical committees, chapter meetings, publications and professional education programs.
+                    <br><br>Up to 10 Undergraduate Scholarships of $1500 offered by MTT society may be granted semi-annually to assist BS and MS students in electrical engineering. IEEE MTT-S also hosts webinars that include topics such as device modeling, circuit design to 5G Systems, and bio-sensors.<br><br><br><br></p></div>
+                <div><h1 class="about_section">Benefits of IEEE MTT-S membership</h1><ul>
+                    <li class="about_text">The IEEE MTT-Society is an active, diverse, dynamic and welcoming group of professionals committed to furthering scientific understanding and applications to industry and society within its field of interest.</li>
+                    <li class="about_text">Highly-regarded publications, conferences, presentations, educational initiatives and regional support provide you with excellent quality access to information in high frequency engineering and great opportunities to network as well as to grow your career.</li>
+                    <li class="about_text">One of the most important benefits of being an MTT-S member is the opportunity it provides for volunteer networking. This is especially true for members who choose to volunteer to support publishing and event organizing. Member volunteers gain opportunities to work and cooperate with other technical professionals outside their own organizations.</li>
+                    <li class="about_text">You get access to both a print and electronic subscription to the award-winning IEEE Microwave Magazine, which includes refereed technical articles of broad interest to the microwave community, focused columns by leading professionals in our field, and news and announcements of events and publications vital to microwave professionals.</li>
+                    <li class="about_text">You also receive electronic access to the full range of Society Journals, including the IEEE Transactions on Microwave Theory & Techniques, IEEE Microwave & Wireless Components Letters, IEEE Transactions on Terahertz Science & Technology, IEEE Journal on Multiscale & Multiphysics Computational Techniques, Journal of Lightwave Technology, IEEE RFID Virtual Journal and the IEEE RFIC Virtual Journal.</li>
+                    <li class="about_text">MTT-S members are given discounts for overlength charges for journal publications, for instance, $185 per page for papers having one MTT-S member and $230 per page if no author is an MTT-S member for the mandatory overlength page charge for the IEEE Transactions on Microwave Theory and Techniques in excess of 7 pages.</li>
+                    <li class="about_text">MTT-S sponsors over 40 conferences and workshops of varying size in every part of the world. As an IEEE/MTT-S member you receive a substantial discount on registration fees for all the MTT-S sponsored conferences and other organized events. MTT-S hosts the annual International Microwave Symposium (IMS) the world’s leading conference in high frequency technology combining high quality scientific presentations with a large industry exhibition 
+                        and industry-oriented events. Member registration discounts for the MTT-Society’s International Microwave Symposium are typically over 30%.<br><br><br><br></li>
+                </ul></div>
+                <h1 class="about_section">About IEEE Gujarat Section</h1><p id="description_text">IEEE Gujarat Section comes under Asia-Pacific Region, the Region 10 of IEEE. The Gujarat Section, a subsection of Bombay Section, was upgraded to full fledged section on 15th August 1990. In 2004, the Gujarat Section was 
+                    adjudged the Outstanding Small Section of Region 10. The section has emphasis on quality programmes and such programmes are regular feature for professional development of its members. The section’s participative philosophy allows students to make programmes as per their own need. Section encourages students and has instituted awards for student members.
+                    <br><br>More about IEEE-Gujarat Section can be found at: <a href="https://ieeegujaratsection.org/" title="IEEE Gujarat Section" target="_blank">ieeegujaratsection.org</a><br><br><br><br></p>
+                <h1 class="about_section">About IEEE</h1><p id='description_text'>
+                    IEEE is the largest technical professional organization dedicated to advancing technology for the benefit of humanity. Through its highly cited publications, conferences, technology standards, and professional and educational activities, IEEE is the trusted voice in a wide variety of areas ranging from aerospace systems, computers, and telecommunications to biomedical engineering, electric power, and consumer electronics.
+                    IEEE appeared from the union of two engineering societies in the early sixties, the IRE (Institute of Radio Engineers) and the AIEE (American Institute of Electrical Engineers). The IEEE is essentially a society for Electrical and Computer Engineers, but it also welcomes Computer Scientists and Physicists. IEEE is what is known as a technical professional society. 
+                    Every engineering branch has a technical professional society, Civil Engineering has ASCE (American Society of Civil Engineers), Mechanical Engineering has ASME (American Society of Mechanical Engineers).
+                    <br><br>More details can be found at: <a href="https://www.ieee.org/" title="IEEE" target="_blank">ieee.org</a><br><br><br><br></p>    
+                <h1 class="about_section">Benefits of Joining IEEE</h1><p id="description_text">
+                    What distinguishes IEEE from this other societies is the fact that IEEE is international. There are IEEE chapters in every continent, and in almost every country, and in those countries where IEEE is not established it has links with the local engineering societies, 
+                    such as the case with IKE (Institution of Electrical Engineers) in the United Kingdom of Great Britain and Northern Ireland. This makes IEEE the largest engineering society in the world.<br><br></p><ul>
+                    <li class="about_text">Spectrum, a monthly magazine of IEEE (single copy costs $ 4, It is FREE with Member Subscription).</li>
+                    <li class="about_text">All Technical papers are freely accessible to IEEE members.</li>
+                    <li class="about_text">It gives you International Recognition as a member of the most active technical organisation(IEEE).</li>
+                    <li class="about_text">Helps you do research, get recognition & publish your work to the whole world.</li>
+                    <li class="about_text">You can have a personal email alias email id(your_name@ieee.org). Furthermore, it adds value to your resume.</li>
+                    <li class="about_text">Entry in various international events like IEEE Xtreme etc.</li>
+                    <li class="about_text">You can be a part of groups of IEEE SB DA-IICT which are the SIG-embedded Programming, SIG-Mobile Application etc.</li>
+                    <li class="about_text">It gives you access to Digital library of IEEE, Job site of IEEE and IEEE TV on the internet.</li>
+                    <li class="about_text">Provides an opportunity to represent college in Quarterly Meets, other meetings etc.</li>
+                    <li class="about_text">Join IEEE & get a life of an innovator(<a href="https://www.ieee.org/membership/join/index.html" title="Join IEEE" target="_blank">ieee.org/join</a>)<br><br><br><br></li>
+                </ul>
+                <div>
+                <h1 class="about_section">About DA-IICT</h1><p id="description_text">Dhirubhai Ambani Institute of Information and Communication Technology, promoted by Dhirubhai Ambani Foundation and the Anil Dhirubhai Ambani Group, was established with a mission to provide an enriching environment 
+                    to enable young minds to widen their horizons in the field of ICT. Set in the backdrop of the lush greenery of Gandhinagar, DA-IICT has and will continue to act in the field of ICT while being at complete harmony with the nature, society and humanity. It pursues global standards of excellence in all endeavors, namely teaching, research, consultancy and continuing education focusing on Information and 
+                    Communication Technology (ICT) and its allied areas. It aims to build a knowledge-led society founded on intellectual competitiveness for global leadership. <br><br>More details about DA-IICT can be found at: 
+                    <a href="https://www.daiict.ac.in/" title="DA-IICT" target="_blank">daiict.ac.in</a><br><br><br><br></p>
+                <h1 class="about_section">Achievements</h1><br>
+                <ul>
+                    <li class="achievement">Best IEEE branch 2019 award won by IEEE SB DAIICT</li>
+
+                    <li class="achievement">The most happening chapter award won by IAS, IEEE SB DA-ICT</li>
+                        
+                    <li class="achievement">Project proposal submitted by Rahil Patel, Harsh Patel and Smit Shah won the 3rd prize.</li>
+                        
+                    <li class="achievement">First Prize won by Aagam Mehta, Kunjal Rupala, Prahar Modi in Smart City Domain at Ingenious Hackathon at Ahmedabad University on 3-4 March</li>
+                        
+                    <li class="achievement">Second Prize won by Maitreya Patel, Raksha Rank, Anery Patel, Dhruval Suthar in Machine Learning Domain at Ingenious Hackathon at Ahmedabad University on 3-4 March</li>
+                        
+                    <li class="achievement">Second Prize won by Abhi Ratnman, Siddharth pogul, Rutvik Shah in the Internet of Things Domain at Ingenious Hackathon at Ahmedabad University on 3-4 March</li>
+                        
+                    <li class="achievement">Rahil Patel, Harsh Patel and Smit Shah submitted a proposal for their project to the Humanitarian Projects Contest organized by IEEE Industry Applications Society CMD Committee and Humanitarian Programs Subcommittee and won the 3rd prize.</li>
+                        
+                    <li class="achievement">First Prize and Travel Grant of $1600 won by Harsh Thakkar, Jay Shah and Devam Shah in International Competition ‘CMD Students Robotics Demonstration Contest 2017</li>
+                        
+                    <li class="achievement">"Outstanding Student Branch Chapter Chair" Award to Abhishek Parikh, Chairperson, IEEE IAS SB Chapter DAIICT 2017</li>
+                        
+                    <li class="achievement">Outstanding Large Chapter Award 2015 to IEEE IAS SB Chapter DAIICT</li>
+                        
+                    <li class="achievement">Best Student Branch 2015, Gujarat Section</li>
+                        
+                    <li class="achievement">2017 IAS Web Contest 3rd prize to IEEE IAS Student Branch of DAIICT</li>
+                </ul><br><br><br>
+                <p id="description_text">
+                    Image Credits: <br> EMF Risks (<a href="https://www.emf-risks.com/what-do-radio-waves-and-microwaves-have-in-common/" title="EMF Risks">link</a>)<br>
+                    Wikipedia (<a href="https://en.wikipedia.org/wiki/5G" title="Wikipedia">link</a>)<br>
+                    Britannica (<a href="https://www.britannica.com/science/radio-telescope" title="Britannica">link</a>)<br><br><br><br>
+                </p></div>
+                <div class="footer_menu"><div class="placing">   
+                    <p class="table_heading">Site Map</p><ul>
+                        <li class="site_map"><a href="https://ieee-sb-daiict.github.io/ieee-2020/index.html" title="IEEE SB DAIICT" target="_blank">IEEE SB DAIICT</a></li>
+                        <li class="site_map"><a href="https://ieeegujaratsection.org/" title="IEEE Gujarat Section" target="_blank">IEEE Gujarat Section</a></li>
+                        <li class="site_map"><a href="https://mtt.org/" title="IEEE MTT-S" target="_blank">IEEE MTT-S</a></li>
+                        <li class="site_map"><br></li>
+                        <li class="site_map"><br></li>
+                        <li class="site_map"><br></li>
+                        <li class="site_map"><br></li>
+                    </ul> 
+                    <p style="font-size: 0.5px;">r</p>
+                    </div>
+                    <div class="placing">
+                        <a href="https://www.daiict.ac.in/" title="DAIICT" class="college_logo" target="_blank"><img src="/MTTS website images/DAIICT logo.png" alt="DAIICT logo"></a>
+                    </div>
+                    <div class="placing">
+                        <p class="side_heading">Useful Links</p><ul>
+                            <li class="useful_links"><a href="https://www.ieee.org/membership/join/index.html" title="Join IEEE" target="_blank">Join IEEE</a></li>
+                            <li class="useful_links"><a href="https://www.ieee.org/membership-catalog/productdetail/showProductDetailPage.html?product=MEMMTT017" title="Join IEEE MTT-S" target="_blank">Join IEEE MTT-S</a></li>
+                            <li class="useful_links"><a href="https://ieeexplore.ieee.org/Xplore/home.jsp" title="IEEE Xplore Digital Library" target="_blank">IEEE Xplore Digital Library</a></li>
+                            <li class="useful_links"><a href="https://spectrum.ieee.org/" title="IEEE Spectrum" target="_blank">IEEE Spectrum</a></li>
+                            <li class="useful_links"><a href="https://standards.ieee.org/" title="IEEE Standards" target="_blank">IEEE Standards</a></li>
+                            <li class="useful_links"><a href="https://mtt.org/publications/" title="Publications" target="_blank">Publications</a></li>
+                        </ul>
+                       </div>
+                </div>
+                <div class="credits">
+                    <h1 class="credits_copyright"><b>Designed by Darshil Parikh, IEEE MTT-S DAIICT</b></h1>
+                    <h1 class="credits_copyright">&copy; 2020 IEEE MTT-S DAIICT. All rights reserved</h1>
+                </div>
+    </body>    
+</html>

@@ -1,0 +1,218 @@
+#header_logo{
+    background-image: linear-gradient(to right,white,lightblue);
+    width: 100%;
+    height : 23%;
+    margin: 0;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+  }
+ #header_logo_left{
+     opacity:100%;
+     margin-top: 19px;
+     margin-left: 45px;
+     height: 82%;
+     width: 16%;
+ } 
+ #header_logo_right{
+    opacity:100%;
+    margin-top: 23px;
+    float: right;
+    margin-right: 51px;
+    height: 71%;
+    width: 19.5%;
+ }
+ .header_menu{
+     background-image: linear-gradient(to right,mediumblue, cyan);
+     margin-top: 0;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     position: -webkit-sticky;
+     position: sticky;
+     top: 0;
+     z-index: 5;
+ }
+ .header_links{
+     float: left;
+ }
+ .header_links a:hover{
+     background-color: darkblue;
+     color: white;
+ }
+.header_links a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 23px 16px 23px;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.active a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    font-size: 23px;
+    background-color: rgb(138, 222, 248);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#desc_logo{
+    align-items: center;
+    margin: 0px 0px 0px 1.5%;
+    opacity: 100%;
+    height: auto;
+    width: 34.5%;
+    margin: auto;
+    display: block;
+}
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 11px;
+    background-color: darkblue;
+    top: 6.8%;
+    bottom: 3%;
+    left: 70%;
+    margin-left: -3px;
+  }
+  .event {
+    padding: 10% 3.49%;
+    position: relative;
+    background-color: white;
+    width: 61.3%;
+  }
+  .event::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: -6.4%;
+    background-color: green;
+    border: 9px solid gold;
+    border-radius: 50%;
+    top: 24.6%;
+    z-index: 1;
+  }
+  .left {
+    left: 0;
+  }
+
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 27.5%;
+    width: 0;
+    z-index: 1;
+    left: 94.5%;
+    border: medium solid rgb(107, 106, 106);
+    border-width: 21px 0 21px 21px;
+    border-color: transparent transparent transparent rgb(107, 106, 106);
+  }
+  
+  .event_content {
+    padding: 20px 30px;
+    background-image: linear-gradient(to right,rgb(59, 51, 51),rgb(107, 106, 106));
+    position: relative;
+    border-radius: 6px;
+    font-size: 19px;
+  }
+  .event_content p{
+      font-size: 21px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: whitesmoke;
+  }
+  .event_content h1{
+      color: lightskyblue;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .footer_menu{
+    background-color: black;
+    height: 51%;
+    width: 100%;
+}
+.table_heading{
+    font-size: 40px;
+    color: white;
+    font-weight: normal;
+    padding: 1% 0px 0.5% 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.site_map a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.site_map a:hover{
+    color: rgb(56, 56, 247);
+}
+.site_map{
+    list-style-type: none;
+    text-align: left;
+    padding: 1% 4% 0px 26.4%;
+}
+.placing{
+    float: left;
+    background-color: black;
+    width: 33.333333%;
+    height: auto;
+    margin: 0;
+}
+.side_heading{
+    color: white;
+    font-size: 40px;
+    padding: 1% 0px 0px 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.useful_links{
+    list-style-type: none;
+    text-align: left;
+    padding: 1% 7% 0px 0%;
+}
+.useful_links a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.useful_links a:hover{
+    color: rgb(56, 56, 247);
+}
+.college_logo img{
+    padding: 7% 0px 0px 19.7%;
+    width: 47.2%; 
+    height: 45.4%;
+}
+.credits{
+    background-color: rgb(24, 23, 23);
+    width: 100%;
+}
+.credits_copyright{
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}

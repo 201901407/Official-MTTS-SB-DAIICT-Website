@@ -1,0 +1,329 @@
+#header_logo{
+    background-image: linear-gradient(to right,white,lightblue);
+    width: 100%;
+    height : 23%;
+    margin: 0;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+  }
+ #header_logo_left{
+     opacity:100%;
+     margin-top: 19px;
+     margin-left: 45px;
+     height: 82%;
+     width: 16%;
+ } 
+ #header_logo_right{
+    opacity:100%;
+    margin-top: 23px;
+    float: right;
+    margin-right: 51px;
+    height: 71%;
+    width: 19.5%;
+ }
+ .header_menu{
+     background-image: linear-gradient(to right,mediumblue, cyan);
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     position: sticky;
+     top: 0;
+ }
+ .header_links{
+     float: left;
+ }
+ .header_links a:hover{
+     background-color: darkblue;
+     color: white;
+ }
+.header_links a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 23px 16px 23px;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.active a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    font-size: 23px;
+    background-color: rgb(138, 222, 248);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#desc_logo{
+    align-items: center;
+    margin: 0px 0px 0px 1.5%;
+    opacity: 100%;
+    height: auto;
+    width: 34.5%;
+    margin: auto;
+    display: block;
+}
+#description{
+    text-align: center;
+    margin: auto;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blue;
+    font-weight: bold;
+}
+#description_text{
+    text-align: justify;
+    margin: 10px 7% 0px 7%;
+    font-size: 31px;
+    position: relative;
+    left: auto;
+    display: block;
+    font-weight: bold;
+    color: rgb(65, 63, 63);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main_description{
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+.event_handler{
+    margin: 70px 7% 30px 3.7%;
+    display: block;
+    position: relative;
+    left: auto;
+    color: blue;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.single_event_info{
+    margin: 20px 25% 10px 25%;
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 3px solid whitesmoke;
+    border-radius: 16px;
+  }
+.previous_event, .next_event {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    background-color: whitesmoke;
+  }
+ .event_description{
+     font-size: 40px;
+     color: midnightblue;
+     text-align: center;
+     background-color: whitesmoke;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ } 
+ .event_description_past{
+    font-size: 40px;
+    color: mediumblue;
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+ .next_event{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .previous_event{
+      left: 0;
+  }
+  .previous_event:hover, .next_event:hover {
+    background-color: lightblue;
+  }
+  .events_back{
+      background-image: url('/MTTS\ website\ images/backim.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      padding: 20px;
+      margin-bottom: 50px;
+  }
+  .events_upcoming{
+    background-image: url('/MTTS\ website\ images/wavesim.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 20px;
+  }
+.past_events{
+    position: relative;
+    margin: 30px 25% 0px 25%;
+    display: block; 
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 3px solid whitesmoke;
+    border-radius: 12px;
+}
+.upcoming_event_poster{
+    width: 70.9%;
+    height: 45em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 15%;
+    padding-right: 14%;
+    background-color: whitesmoke;
+}
+.past_event_poster{
+    width: 100%;
+    height: 30%;
+    margin-top: 1%;
+    background-color: whitesmoke;
+}
+.date_time{
+    text-align: left;
+    font-size: 25px;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 1%;
+}
+.date_time_up{
+    text-align: left;
+    font-size: 26px;
+    color: rgb(82, 75, 75);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 1%;
+    font-weight: normal;
+}
+.past_event_description{
+    text-align: justify;
+    font-size: 25px;
+    color:rgb(65, 63, 63);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about_section{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about_text{
+    text-align: justify;
+    margin: 10px 7% 20px 7%;
+    position: relative;
+    font-size: 31px;
+    color: rgb(65, 63, 63);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.footer_menu{
+    background-color: black;
+    height: 51%;
+    width: 100%;
+}
+.table_heading{
+    font-size: 40px;
+    color: white;
+    font-weight: normal;
+    padding: 1% 0px 0.5% 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.site_map a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.site_map a:hover{
+    color: rgb(56, 56, 247);
+}
+.site_map{
+    list-style-type: none;
+    text-align: left;
+    padding: 1% 4% 0px 26.4%;
+}
+.placing{
+    float: left;
+    background-color: black;
+    width: 33.333333%;
+    height: auto;
+    margin: 0;
+}
+.side_heading{
+    color: white;
+    font-size: 40px;
+    padding: 1% 0px 0px 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.useful_links{
+    list-style-type: none;
+    text-align: left;
+    padding: 1% 7% 0px 0%;
+}
+.useful_links a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.useful_links a:hover{
+    color: rgb(56, 56, 247);
+}
+.college_logo img{
+    padding: 7% 0px 0px 19.7%;
+    width: 47.2%; 
+    height: 45.4%;
+}
+.credits{
+    background-color: rgb(24, 23, 23);
+    width: 100%;
+}
+.credits_copyright{
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+.achievement{
+    text-align: justify;
+    margin: 10px 7% 20px 6.5%;
+    position: relative;
+    font-size: 31px;
+    color: rgb(68, 67, 67);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.reg{
+    font-size: 40px;
+    text-align: center;
+}
+.reg a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkgoldenrod;
+}
+.reg a:hover{
+    color: rgb(110, 112, 236);
+}
+.past_event_poster_ver{
+    width: 90%;
+    height: 815px;
+    background-color: whitesmoke;
+    padding-left: 5%;
+}

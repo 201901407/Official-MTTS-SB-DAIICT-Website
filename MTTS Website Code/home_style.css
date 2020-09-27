@@ -161,7 +161,7 @@ body, html {
     background-color: lightblue;
   }
   .events_back{
-      background-image: url('./MTTS website images/backim.jpg' /);
+      background-image: url('../MTTS website images/backim.jpg');
       background-repeat: no-repeat;
       background-size: cover;
       position: relative;
@@ -169,7 +169,7 @@ body, html {
       margin-bottom: 50px;
   }
   .events_upcoming{
-    background-image: url('./MTTS website images/wavesim.jpg' /);
+    background-image: url('../MTTS website images/wavesim.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;

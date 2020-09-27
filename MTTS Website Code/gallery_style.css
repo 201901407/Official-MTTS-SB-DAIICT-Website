@@ -25,6 +25,12 @@ body, html {
     height: 71%;
     width: 19.5%;
  }
+
+.navbar-fixed-top{
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+}
  .header_menu{
      background-image: linear-gradient(to right,mediumblue, cyan);
      margin-top: 0;

@@ -33,7 +33,15 @@ body, html {
      overflow: hidden;
      position: sticky;
      top: 0;
+     z-index: 5;
  }
+
+.navbar-fixed-top{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
  .header_links{
      float: left;
  }

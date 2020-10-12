@@ -88,14 +88,14 @@ body, html {
     width: 100%;
 }
 .table_heading{
-    font-size: 40px;
+    font-size: 2.7vw;
     color: white;
     font-weight: normal;
     padding: 1% 0px 0.5% 30%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .site_map a{
-    font-size: 25px;
+    font-size: 1.7vw;
     text-decoration: none;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -117,7 +117,7 @@ body, html {
 }
 .side_heading{
     color: white;
-    font-size: 40px;
+    font-size: 2.7vw;
     padding: 1% 0px 0px 5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -127,7 +127,7 @@ body, html {
     padding: 1% 7% 0px 0%;
 }
 .useful_links a{
-    font-size: 25px;
+    font-size: 1.7vw;
     text-decoration: none;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -146,7 +146,7 @@ body, html {
 }
 .credits_copyright{
     text-align: center;
-    font-size: 23px;
+    font-size: 1.7vw;
     color: white;
     margin: 0;
     padding-top: 2%;
@@ -156,7 +156,7 @@ body, html {
 }
 .intro{
     text-align: center;
-    font-size: 40px;
+    font-size: 2.7vw;
     color: blue;
     margin-top: 7%;
     margin-bottom: 3.5%;
@@ -168,10 +168,10 @@ body, html {
     background-color: lightblue;
     height: 50%;
     border: 0px solid rgb(184, 232, 248);
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 1.3vw 1.3vw 1.3vw 1.3vw;
 }
 .container:hover{
-    box-shadow: 1px 1px 10px 10px rgb(151, 140, 140);
+    box-shadow: 1px 1px 0.7vw 0.7vw rgb(151, 140, 140);
 }
 .member_picture{
     width: 21%;
@@ -188,15 +188,15 @@ body, html {
     float: right;
     height: 100%;
     background-image: linear-gradient(to right,lightblue,rgb(85, 85, 241));
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 1.3vw 1.3vw 0px;
 }
 .designation{
-    font-size: 29px;
+    font-size: 1.9vw;
     margin-top: 2.3%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .bio{
-    font-size: 29px;
+    font-size: 1.9vw;
     margin-top: 3%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 40px;

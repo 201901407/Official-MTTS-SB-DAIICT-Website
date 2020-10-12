@@ -118,7 +118,7 @@ body, html {
 }
 .side_heading{
     color: white;
-    font-size: 40px;
+    font-size: 2.7vw;
     padding: 1% 0px 0px 5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -128,7 +128,7 @@ body, html {
     padding: 1% 7% 0px 0%;
 }
 .useful_links a{
-    font-size: 25px;
+    font-size: 1.7vw;
     text-decoration: none;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -147,7 +147,7 @@ body, html {
 }
 .credits_copyright{
     text-align: center;
-    font-size: 23px;
+    font-size: 1.7vw;
     color: white;
     margin: 0;
     padding-top: 2%;
@@ -162,7 +162,7 @@ body, html {
     left: auto;
     color: blue;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 2.6vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }

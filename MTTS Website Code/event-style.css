@@ -92,7 +92,7 @@ body, html {
 .timeline::after {
     content: '';
     position: absolute;
-    width: 11px;
+    width: 0.7vw;
     background-color: darkblue;
     top: 6.8%;
     bottom: 3%;
@@ -130,7 +130,7 @@ body, html {
     z-index: 1;
     left: 94.5%;
     border: medium solid rgb(107, 106, 106);
-    border-width: 21px 0 21px 21px;
+    border-width: 1.4vw 0 1.4vw 1.4vw;
     border-color: transparent transparent transparent rgb(107, 106, 106);
   }
   

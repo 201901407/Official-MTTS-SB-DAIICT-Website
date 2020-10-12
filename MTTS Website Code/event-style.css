@@ -185,7 +185,7 @@ body, html {
 }
 .side_heading{
     color: white;
-    font-size: 40px;
+    font-size: 2.7vw;
     padding: 1% 0px 0px 5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -195,7 +195,7 @@ body, html {
     padding: 1% 7% 0px 0%;
 }
 .useful_links a{
-    font-size: 25px;
+    font-size: 1.7vw;
     text-decoration: none;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;

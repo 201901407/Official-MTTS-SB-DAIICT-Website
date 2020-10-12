@@ -216,7 +216,7 @@ body, html {
 }
 .past_event_description{
     text-align: justify;
-    font-size: 25px;
+    font-size: 1.7vw;
     color:rgb(65, 63, 63);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

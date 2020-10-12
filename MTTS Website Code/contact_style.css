@@ -86,7 +86,7 @@ body .navbar-fixed-top{
 
 .intro{
     text-align: center;
-    font-size: 40px;
+    font-size: 2.7vw;
     color: blue;
     margin-top: 7%;
     margin-bottom: 3.5%;
@@ -103,19 +103,19 @@ body .navbar-fixed-top{
     width: 43%;
 }
 .heading{
-    font-size: 42px;
+    font-size: 2.8vw;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     color: rgb(123, 139, 228);
 }
 .content{
-    font-size: 31px;
+    font-size: 1.9vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     font-weight: normal;
 }
 .content a{
-    font-size: 31px;
+    font-size: 1.9vw;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: blue;
@@ -129,14 +129,14 @@ body .navbar-fixed-top{
     width: 100%;
 }
 .table_heading{
-    font-size: 40px;
+    font-size: 2.7vw;
     color: white;
     font-weight: normal;
     padding: 1% 0px 0.5% 30%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .site_map a{
-    font-size: 25px;
+    font-size: 1.7vw;
     text-decoration: none;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -158,7 +158,7 @@ body .navbar-fixed-top{
 }
 .side_heading{
     color: white;
-    font-size: 40px;
+    font-size: 2.7vw;
     padding: 1% 0px 0px 5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -168,7 +168,7 @@ body .navbar-fixed-top{
     padding: 1% 7% 0px 0%;
 }
 .useful_links a{
-    font-size: 25px;
+    font-size: 1.7vw;
     text-decoration: none;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -187,7 +187,7 @@ body .navbar-fixed-top{
 }
 .credits_copyright{
     text-align: center;
-    font-size: 23px;
+    font-size: 1.7vw;
     color: white;
     margin: 0;
     padding-top: 2%;

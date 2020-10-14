@@ -36,6 +36,14 @@
             <a class="next_event" onclick="plusSlides(1)">&#10095;</a>
         </div>
         <script>
+            function myFunction() {
+            var x = document.getElementById("header_menu");
+            if (x.className === "header_menu") {
+                      x.className += " responsive";
+            } else {
+                    x.className = "header_menu";
+            }
+            }
             var slideIndex = 1;
             showSlides(slideIndex);
             

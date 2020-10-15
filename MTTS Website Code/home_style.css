@@ -40,6 +40,7 @@ body, html {
      overflow: hidden;
      position: sticky;
      top: 0;
+     z-index:50;
  }
  .header_menu a{
     display: block;
@@ -51,6 +52,7 @@ body, html {
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     float: left;
+     z-index: 50;
  }
  .header_menu a:hover{
     background-color: darkblue;
@@ -69,6 +71,7 @@ body, html {
         display: block;
         color: white;
         font-size: 2.3vw;
+         z-index:50;
       }
      .header_menu.responsive{
          background-image: linear-gradient(to right,mediumblue,cyan);
@@ -98,6 +101,7 @@ body, html {
 .active{
     background-color: rgb(138, 222, 248);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index:50;
 }
 #desc_logo{
     align-items: center;

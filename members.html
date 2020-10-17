@@ -9,15 +9,16 @@
     <body>
         <h1 id = "header_logo"><img src="./MTTS website images/Logo MTT-S.png" alt="IEEE MTT-S SB DA-IICT" id = "header_logo_left">
             <a href="https://ieee-sb-daiict.github.io/ieee-2020/index.html" title="IEEE Student Branch DAIICT" target="_blank"><img src="./MTTS website images/IEEE-SB-DAIICT.png" alt="IEEE SB-DAIICT" id = "header_logo_right"></a></h1>
-        <nav class ="header_menu" id="header_menu"><ul class = "header_menu">
-            <li class="header_links"><a href="index.html" title="Home">HOME</a></li>
-            <li class="header_links"><a href="events.html" title="Event Timeline">EVENT TIMELINE</a></li>
-            <li class="header_links"><a href="gallery_web.html" title="Gallery">GALLERY</a></li>
-            <li class="header_links"><a href="https://ieee-sb-daiict.github.io/ieee-2020/team.html" title="Execomm committee">EXECOMM</a></li>
-            <li class="active"><a href="members.html" title="Members">MEMBERS</a></li>
-            <li class="header_links"><a href="history.html" title="History">HISTORY</a></li>
-            <li class="header_links"><a href="contact.html" title="Contact Us">CONTACT US</a></li>
-        </ul></nav>
+       <nav class ="header_menu" id="testbar">
+            <a href="javascript:void(0)" class="openbtn" onclick="myFunction()">☰</a>
+            <a href="Home.html" title="Home">HOME</a>
+            <a href="events.html" title="Event Timeline">EVENT TIMELINE</a>
+            <a href="gallery_web.html" title="Gallery">GALLERY</a>
+            <a href="https://ieee-sb-daiict.github.io/ieee-2020/team.html" title="Execomm committee">EXECOMM</a>
+            <a href="members.html" title="Members" class="active">MEMBERS</a>
+            <a href="history.html" title="History">HISTORY</a>
+            <a href="contact.html" title="Contact Us">CONTACT US</a>
+        </nav> 
         <h1 class="intro">IEEE MTT-S Execomm 2020 Members</h1>
         <div class="container"><img src="./MTTS website images/Khyati Bhuva.jpg" alt="Khyati Bhuva" class="member_picture"><div class="placeholder"><h1 class="designation">Khyati Bhuva</h1>
         <p class="designation">Event Coordinator<br><br><b>IEEE number:</b> 95099005<br><p class="bio"><b>Contributions:</b> Member and Coordinator of Event Organizing Committee</p></p></div>
@@ -68,6 +69,14 @@
                 if ( $window.scrollTop() >= distance ) $('#header_menu').addClass('navbar-fixed-top');
                 else $('#header_menu').removeClass('navbar-fixed-top');
             });
+            function myFunction() {
+            var x = document.getElementById("header_menu");
+            if (x.className === "header_menu") {
+                      x.className += " responsive";
+            } else {
+                    x.className = "header_menu";
+            }
+            }
         </script>
     </body>
 </html>    

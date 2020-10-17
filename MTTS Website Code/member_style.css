@@ -27,51 +27,74 @@ body, html {
  }
  .header_menu{
      background-image: linear-gradient(to right,mediumblue, cyan);
-     margin-top: 0;
      list-style-type: none;
      margin: 0;
      padding: 0;
      overflow: hidden;
-     position: -webkit-sticky;
      position: sticky;
      top: 0;
-     z-index: 5;
+     z-index:50;
  }
- .navbar-fixed-top{
-    position: fixed;
-    width: 100%;
-    top: 0;
-}
- .header_links{
-     float: left;
- }
- .header_links a:hover{
-     background-color: darkblue;
-     color: white;
- }
-.header_links a{
+ .header_menu a{
     display: block;
     color: white;
     text-align: center;
-    padding: 16px 23px 16px 23px;
+    padding: 1.2vw 1.7vw 1.2vw 1.7vw;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 1.5vw;
     font-weight: bold;
-    font-size: 23px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.active a{
     float: left;
-    display: block;
+     z-index: 50;
+ }
+ .header_menu a:hover{
+    background-color: darkblue;
     color: white;
-    text-align: center;
-    padding: 16px 16px;
-    text-decoration: none;
-    font-size: 19px;
-    font-weight: bold;
-    font-size: 23px;
+}
+ .header_menu a.openbtn{
+     display: none;
+ }
+ @media only screen and (max-width: 1240px)
+ {
+     .header_menu a:not(:first-child){
+         display: none;
+     }
+     .header_menu a.openbtn {
+        float: left;
+        display: block;
+        color: white;
+        font-size: 2.3vw;
+         z-index:50;
+      }
+     .header_menu.responsive{
+         background-image: linear-gradient(to right,mediumblue,cyan);
+         height:100%;
+         width: 22vw;
+         position: fixed;
+         z-index: 99;
+         top:0;
+         left: 0;
+         overflow-x: hidden;
+         transition: 0.5s;
+         padding-top: 3vw;
+     }
+     .header_menu.responsive a{
+         width: 22vw;
+         text-decoration: none;
+         font-size: 1.8vw;
+         color: white;
+         display: block;
+         transition: 0.5s;
+         padding: 1.7vw 2.1vw 1.7vw 2.1vw;
+         text-align: left;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-weight: bold;
+        }
+ }
+.active{
     background-color: rgb(138, 222, 248);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index:50;
 }
 #desc_logo{
     align-items: center;

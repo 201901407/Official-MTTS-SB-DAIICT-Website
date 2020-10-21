@@ -267,7 +267,7 @@ body, html {
 }
 .footer_menu{
     background-color: black;
-    height: 33vw;
+    height: auto;
     width: 100%;
 }
 .table_heading{
@@ -295,7 +295,7 @@ body, html {
     float: left;
     background-color: black;
     width: 33.333333%;
-    height: 33vw;
+    height: auto;
     margin: 0;
 }
 .side_heading{

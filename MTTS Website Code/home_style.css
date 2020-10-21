@@ -267,7 +267,7 @@ body, html {
 }
 .footer_menu{
     background-color: black;
-    height: 59%;
+    height: 33vw;
     width: 100%;
 }
 .table_heading{
@@ -319,9 +319,9 @@ body, html {
     color: rgb(56, 56, 247);
 }
 .college_logo img{
-    padding: 7% 0px 0px 19.7%;
-    width: 47.2%; 
-    height: 45.4%;
+    padding: 7% 0px 0px 18%;
+    width: 17vw; 
+    height: 17vw;
 }
 .credits{
     background-color: rgb(24, 23, 23);

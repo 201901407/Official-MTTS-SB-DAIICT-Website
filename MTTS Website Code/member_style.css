@@ -206,6 +206,11 @@ body, html {
     height: 92%;
     padding: 1% 0% 1% 4%;
 }
+.member_picture_wide{
+    width: 25%;
+    height: 82%;
+    padding: 2% 0% 2% 3%;
+}
 .placeholder{
     width:73%;
     float: right;

@@ -229,3 +229,25 @@ body, html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 40px;
 }
+.placeholder_wide{
+    width:68.7%;
+    float: right;
+    height: 100%;
+    background-image: linear-gradient(to right,lightblue,rgb(85, 85, 241));
+    border-radius: 0px 1.3vw 1.3vw 0px;
+}
+.container_big{
+    margin: 3% 5% 6% 5%;
+    background-color: lightblue;
+    height: 65%;
+    border: 0px solid rgb(184, 232, 248);
+    border-radius: 1.3vw;
+}
+.container_big:hover{
+    box-shadow: 1px 1px 0.7vw 0.7vw rgb(151, 140, 140);
+}
+.member_picture_big{
+    width: 22.4%;
+    height: 82%;
+    padding: 3% 0% 5% 2.3%;
+}

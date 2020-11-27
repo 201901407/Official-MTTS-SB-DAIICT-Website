@@ -234,7 +234,7 @@ body, html {
 .member_picture_wide{
     width: 24vw;
     height: 21vw;
-    padding: 2vw 2vw 2vw 3vw;
+    padding: 2vw 1vw 2vw 2vw;
 }
 .container_big{
     margin: 7vw;

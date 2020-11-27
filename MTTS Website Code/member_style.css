@@ -187,9 +187,9 @@ body, html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .container{
-    margin: 3% 5% 6% 5%;
+    margin: 10vw;
     background-color: lightblue;
-    height: 50%;
+    height: 25vw;
     border: 0px solid rgb(184, 232, 248);
     border-radius: 1.3vw 1.3vw 1.3vw 1.3vw;
 }
@@ -197,37 +197,32 @@ body, html {
     box-shadow: 1px 1px 0.7vw 0.7vw rgb(151, 140, 140);
 }
 .member_picture{
-    width: 21%;
-    height: 90%;
-    padding: 1.3% 0% 1.3% 3%;
+    width: 18vw;
+    height: 23vw;
+    padding: 1vw 2vw 1vw 2vw;
 }
 .member_picture_other{
-    width: 18%;
-    height: 92%;
+    width: 15vw;
+    height: 23vw;
     padding: 1% 0% 1% 4%;
 }
-.member_picture_wide{
-    width: 25%;
-    height: 82%;
-    padding: 2% 0% 2% 3%;
-}
 .placeholder{
-    width:73%;
+    width: 55vw;
     float: right;
     height: 100%;
     background-image: linear-gradient(to right,lightblue,rgb(85, 85, 241));
     border-radius: 0px 1.3vw 1.3vw 0px;
 }
 .designation{
-    font-size: 1.9vw;
-    margin-top: 2.3%;
+    font-size: 1.7vw;
+    margin-top: 1.3vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .bio{
-    font-size: 1.9vw;
-    margin-top: 3%;
+    font-size: 1.7vw;
+    margin-top: 0.3vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 40px;
+    line-height: 2.8vw;
 }
 .placeholder_wide{
     width:68.7%;

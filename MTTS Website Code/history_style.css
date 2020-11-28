@@ -1,7 +1,7 @@
 #header_logo{
     background-image: linear-gradient(to right,white,lightblue);
     width: 100%;
-    height : 23%;
+    height : 12vw;
     margin: 0;
 }
 body, html {
@@ -12,18 +12,18 @@ body, html {
   }
  #header_logo_left{
      opacity:100%;
-     margin-top: 19px;
-     margin-left: 45px;
-     height: 82%;
-     width: 16%;
+     margin-top: 1.3vw;
+     margin-left: 3vw;
+     height: 9.84vw;
+     width: 16vw;
  } 
  #header_logo_right{
     opacity:100%;
-    margin-top: 23px;
+    margin-top: 1.9vw;
     float: right;
-    margin-right: 51px;
-    height: 71%;
-    width: 19.5%;
+    margin-right: 3.2vw;
+    height: 8.52vw;
+    width: 19.5vw;
  }
  .navbar-fixed-top{
     position: fixed;
